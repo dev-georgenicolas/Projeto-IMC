@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #3993DD;
+
+}
+
+.container{
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    background-color: #FFFFFF;
+    border-radius: 1.9rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.imagem img{
+    width: 32rem;
+}
+
+
+.calculadora{
+    height:  30rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem;
+    background-color: #5384fffc;
+    border-radius: 1rem;
+}
+
+.titulo{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size:  2rem;
+    color: white;
+}
+#form{
+    width: 100%;
+    height: 70rem ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.input-box{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+    font-size: 1.2rem;
+   
+}
+
+.input{
+    padding: 0.9rem;
+    display:flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+    background-color:rgb(110, 135, 197);
+    box-shadow: rgb(0, 0, 0) 0px 0px 6px 0px;
+    border-radius: 1rem;
+
+}
+
+.input input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: auto;
+    padding: 0 0.5rem;
+    background-color: transparent;
+}
+
+.input input::-webkit-outer-spin-button,
+.input input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+#calcular{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: rgb(37, 78, 242);
+    color: white;
+    border: none;
+    border-radius: 20rem;
+}
+
+#calcular:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: rgb(65, 75, 116);
+}
+
+.result{
+    padding: 1rem;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
