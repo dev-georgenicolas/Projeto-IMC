@@ -20,12 +20,13 @@ body{
 
 .container{
     width: 80rem;
-    padding: 4rem;
+    height: 90vh;
+    padding: 6rem 4rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    background-color: #FFFFFF;
+    gap: .1rem 2rem;
+    background-color: #ffffff;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -59,7 +60,7 @@ body{
 }
 
 .input input{
-    background-color: #E7E7E7;
+    background-color: #dadada;
     border: none;
     padding: 1rem;
     width: 25rem;
@@ -89,7 +90,7 @@ body{
 .botao button{
     border-radius: 4rem;
     width: 10rem;
-    background-color: #DBDBDB;
+    background-color: #dadada;
     outline: none;
     border: none;
     padding: 1rem;
@@ -101,5 +102,41 @@ body{
 .botao button:hover{
     cursor: pointer;
     transition: 0.2s;
+    background-color: rgb(152, 152, 152);
+}
+
+.painel2{
+    width: 45rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.imagem img{
+    width:auto;
+    height: 25rem;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+}
+
+#result-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 1rem;
+
+}
+
+#result{
+    padding: 1rem;
     background-color: #C3C3C3;
+    width: 20rem;
+    height: 20rem;
+    border-radius: .75rem;
+
 }
