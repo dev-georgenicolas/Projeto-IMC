@@ -125,6 +125,8 @@ body{
     flex-direction: column;
 }
 
+
+
 #result-title{
     font-size: 24px;
     font-weight: 500;
@@ -132,11 +134,24 @@ body{
 
 }
 
-#result{
+#imc{
     padding: 1rem;
     background-color: #C3C3C3;
     width: 20rem;
     height: 20rem;
     border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
 
 }
+
+#imc-title{
+    font-size: 1.5rem;
+}    
+
+#valor{
+    margin-top: 2rem;
+    font-size: 5rem;
+    text-align: center;
+}
+

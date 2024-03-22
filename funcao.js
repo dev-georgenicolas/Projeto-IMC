@@ -3,12 +3,12 @@ const form = document.getElementById('form');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const altura = parseFloat(document.getElementById('altura').value);
-    const peso = parseFloat(document.getElementById('peso').value);
+    const h = parseFloat(document.getElementById('height').value);
+    const w = parseFloat(document.getElementById('weight').value);
 
-    const imc = (peso / (altura * altura)).toFixed(2);
+    const imc = (w / (h * h)).toFixed(2);
+
     
-    
-    const resultado = document.getElementById('resultado');
-    resultado.innerHTML = 'Seu IMC é: ' + imc;
+    const result = document.getElementById('value');
+    result.textContent = imc;
 });
